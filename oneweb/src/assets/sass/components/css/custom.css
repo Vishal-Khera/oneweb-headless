@@ -1,0 +1,49 @@
+/*-- Use For Custom Styling --*/
+
+.top-margin{
+    padding-top: 75px;
+}
+.bottom-margin{
+    padding-bottom: 75px;
+}
+
+.content-card{
+    background: white ;
+}
+
+.field-cardtitle{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.field-carddescription{
+    font-size: 20px;
+}
+
+
+.field-cardlink{
+    margin-top: 20px;
+}
+
+.cards {
+    /* Your existing styles for cards container */
+  }
+  
+  .content-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .blog-box {
+    /* Your existing styles for individual blog box */
+    width: calc(33.33% - 10px); /* Adjust this value to create spacing between items */
+  }
+
+  .custom-heading {
+    color: rgb(0, 119, 255); /* Set the color you want for the heading */
+    margin-bottom: 20px; /* Adjust the value for the desired space after the heading */
+    font-size: 50px;
+    align-content: center;
+  }
+  
